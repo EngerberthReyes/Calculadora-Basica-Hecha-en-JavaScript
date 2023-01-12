@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, arial;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+*::selection {
+	background: #ffffff;
+	color: #000000;
+}
+
+html {
+  	min-height: 100%;
+  	position: relative;
+}
+
+body {
+	background: #000000;
+	display: grid;
+	place-content: center;
+	place-items: center;
+	height: 750px;
+	margin: 0;
+  	margin-bottom: 40px;
+}
+
+footer {
+  	background-color: black;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 40px;
+  	color: white;
+}
+
+.titulo_footer {
+	display: grid;
+	place-items: center;
+	clear: both;
+	width: 100%;
+	height: 20px;
+
+}
